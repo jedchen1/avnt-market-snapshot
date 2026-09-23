@@ -5,32 +5,32 @@
     "futures": {
       "funding_rate": 5e-05,
       "high_24h": 0.12261,
-      "index_price": 0.12142997,
+      "index_price": 0.12140298,
       "low_24h": 0.11412,
-      "mark_price": 0.12148629,
+      "mark_price": 0.12131784,
       "next_funding_time": "2026-09-23T08:00:00.000+00:00",
       "next_funding_time_ms": 1790150400000,
-      "open_interest": 26864383.0,
-      "price": 0.1215,
-      "price_change_24h": 0.0009,
-      "price_change_pct_24h": 0.746,
-      "upstream_time": "2026-09-23T04:05:04.284+00:00",
-      "upstream_timestamp_ms": 1790136304284,
-      "volume_24h_base": 36251760.0,
-      "volume_24h_quote": 4271707.19643
+      "open_interest": 26860551.0,
+      "price": 0.12123,
+      "price_change_24h": 0.00086,
+      "price_change_pct_24h": 0.714,
+      "upstream_time": "2026-09-23T04:06:05.713+00:00",
+      "upstream_timestamp_ms": 1790136365713,
+      "volume_24h_base": 36185559.0,
+      "volume_24h_quote": 4263748.39336
     },
     "next_funding_time": "2026-09-23T08:00:00.000+00:00",
-    "open_interest": 26864383.0,
+    "open_interest": 26860551.0,
     "spot": {
       "high_24h": 0.1226,
       "low_24h": 0.1141,
       "price": 0.1214,
       "price_change_24h": 0.0006,
       "price_change_pct_24h": 0.497,
-      "upstream_time": "2026-09-23T04:05:04.980+00:00",
-      "upstream_timestamp_ms": 1790136304980,
-      "volume_24h_base": 12957675.1,
-      "volume_24h_quote": 1523571.39092
+      "upstream_time": "2026-09-23T04:06:06.290+00:00",
+      "upstream_timestamp_ms": 1790136366290,
+      "volume_24h_base": 12951670.2,
+      "volume_24h_quote": 1522851.39179
     },
     "spot_price": 0.1214
   },
@@ -45,8 +45,8 @@
     "4h": 4180894.0
   },
   "gate": "PASS",
-  "generated_at_utc": "2026-09-23T04:05:10.653+00:00",
-  "github_bridge_published_at_utc": "2026-09-23T04:05:17.864Z",
+  "generated_at_utc": "2026-09-23T04:06:11.511+00:00",
+  "github_bridge_published_at_utc": "2026-09-23T04:06:18.870Z",
   "integrity": {
     "current_price_inside_24h_range": true,
     "monotonic_timestamps": true,
@@ -56,8 +56,8 @@
     "futures": {
       "high_24h": 0.12261,
       "low_24h": 0.11412,
-      "price_change_24h": 0.0009,
-      "price_change_pct_24h": 0.746
+      "price_change_24h": 0.00086,
+      "price_change_pct_24h": 0.714
     },
     "spot": {
       "high_24h": 0.1226,
@@ -67,7 +67,7 @@
     }
   },
   "oi": {
-    "current": 26864383.0
+    "current": 26860551.0
   },
   "providers": {
     "binance_funding_current": {
@@ -119,10 +119,10 @@
       "status": "OK"
     }
   },
-  "published_at_utc": "2026-09-23T04:05:10.761Z",
-  "request_id": "3564aafcf41065b92dae182dddc4f66b",
+  "published_at_utc": "2026-09-23T04:06:11.590Z",
+  "request_id": "c53c99213edff825724fd6bb6530e0bc",
   "schema": "AVNT_PUBLIC_SNAPSHOT_V1",
-  "snapshot_id": "20260923T040510761Z-3564aafc",
+  "snapshot_id": "20260923T040611590Z-c53c9921",
   "source": "BINANCE_VIA_VPS_RELAY_V2_LOCAL_SNAPSHOT",
   "spot_volume": {
     "1h": 591978.6,
@@ -139,7 +139,7 @@
         "spot": 4,
         "spot_previous": 4
       },
-      "end_utc": "2026-09-23T04:05:10.643+00:00",
+      "end_utc": "2026-09-23T04:06:11.504+00:00",
       "funding_avg": 5e-05,
       "funding_current": 5e-05,
       "funding_event_count": 1,
@@ -159,9 +159,9 @@
       "futures_volume_prev_window_base": 694111.0,
       "futures_volume_quote": 244812.52964999998,
       "futures_volume_vs_prev_pct": 190.22605894446278,
-      "oi_change": 8675.0,
-      "oi_change_pct": 0.032302257680183466,
-      "oi_end": 26864383.0,
+      "oi_change": 4843.0,
+      "oi_change_pct": 0.01803341025303773,
+      "oi_end": 26860551.0,
       "oi_start": 26855708.0,
       "oi_start_at_utc": "2026-09-23T03:00:00.000+00:00",
       "price_change": 0.0015999999999999903,
@@ -173,7 +173,7 @@
       "spot_volume_prev_window_base": 248568.1,
       "spot_volume_quote": 72168.9229,
       "spot_volume_vs_prev_pct": 138.15549943858443,
-      "start_utc": "2026-09-23T03:05:10.643+00:00",
+      "start_utc": "2026-09-23T03:06:11.504+00:00",
       "valid": true,
       "volume_end_utc": "2026-09-23T04:00:00.000+00:00",
       "volume_method": "completed_15m_candles_equal_windows",
@@ -188,7 +188,7 @@
         "spot": 96,
         "spot_previous": 96
       },
-      "end_utc": "2026-09-23T04:05:10.643+00:00",
+      "end_utc": "2026-09-23T04:06:11.504+00:00",
       "funding_avg": 5e-05,
       "funding_current": 5e-05,
       "funding_event_count": 6,
@@ -248,9 +248,9 @@
       "futures_volume_prev_window_base": 63399149.0,
       "futures_volume_quote": 4275935.22706,
       "futures_volume_vs_prev_pct": -42.76177271717007,
-      "oi_change": -1106793.0,
-      "oi_change_pct": -3.956905494427554,
-      "oi_end": 26864383.0,
+      "oi_change": -1110625.0,
+      "oi_change_pct": -3.9706053116965845,
+      "oi_end": 26860551.0,
       "oi_start": 27971176.0,
       "oi_start_at_utc": "2026-09-22T04:00:00.000+00:00",
       "price_change": 0.0003999999999999976,
@@ -262,7 +262,7 @@
       "spot_volume_prev_window_base": 20113803.9,
       "spot_volume_quote": 1520766.42626,
       "spot_volume_vs_prev_pct": -35.692363491721224,
-      "start_utc": "2026-09-22T04:05:10.643+00:00",
+      "start_utc": "2026-09-22T04:06:11.504+00:00",
       "valid": true,
       "volume_end_utc": "2026-09-23T04:00:00.000+00:00",
       "volume_method": "completed_15m_candles_equal_windows",
@@ -277,7 +277,7 @@
         "spot": 192,
         "spot_previous": 192
       },
-      "end_utc": "2026-09-23T04:05:10.643+00:00",
+      "end_utc": "2026-09-23T04:06:11.504+00:00",
       "funding_avg": 5e-05,
       "funding_current": 5e-05,
       "funding_event_count": 12,
@@ -385,9 +385,9 @@
       "futures_volume_prev_window_base": 78151717.0,
       "futures_volume_quote": 11688249.348269999,
       "futures_volume_vs_prev_pct": 27.55663192914879,
-      "oi_change": -3305365.0,
-      "oi_change_pct": -10.955891974967768,
-      "oi_end": 26864383.0,
+      "oi_change": -3309197.0,
+      "oi_change_pct": -10.968593440024755,
+      "oi_end": 26860551.0,
       "oi_start": 30169748.0,
       "oi_start_at_utc": "2026-09-21T04:00:00.000+00:00",
       "price_change": 0.008899999999999991,
@@ -399,7 +399,7 @@
       "spot_volume_prev_window_base": 17116179.8,
       "spot_volume_quote": 3894095.49559,
       "spot_volume_vs_prev_pct": 93.08348116324414,
-      "start_utc": "2026-09-21T04:05:10.643+00:00",
+      "start_utc": "2026-09-21T04:06:11.504+00:00",
       "valid": true,
       "volume_end_utc": "2026-09-23T04:00:00.000+00:00",
       "volume_method": "completed_15m_candles_equal_windows",
@@ -414,7 +414,7 @@
         "spot": 16,
         "spot_previous": 16
       },
-      "end_utc": "2026-09-23T04:05:10.643+00:00",
+      "end_utc": "2026-09-23T04:06:11.504+00:00",
       "funding_avg": 5e-05,
       "funding_current": 5e-05,
       "funding_event_count": 1,
@@ -434,9 +434,9 @@
       "futures_volume_prev_window_base": 3492864.0,
       "futures_volume_quote": 503338.17053,
       "futures_volume_vs_prev_pct": 19.698161737760177,
-      "oi_change": 80647.0,
-      "oi_change_pct": 0.30110437169781346,
-      "oi_end": 26864383.0,
+      "oi_change": 76815.0,
+      "oi_change_pct": 0.286797181692644,
+      "oi_end": 26860551.0,
       "oi_start": 26783736.0,
       "oi_start_at_utc": "2026-09-23T00:00:00.000+00:00",
       "price_change": 0.0010999999999999899,
@@ -448,7 +448,7 @@
       "spot_volume_prev_window_base": 918721.0,
       "spot_volume_quote": 127131.25952,
       "spot_volume_vs_prev_pct": 14.655548311184807,
-      "start_utc": "2026-09-23T00:05:10.643+00:00",
+      "start_utc": "2026-09-23T00:06:11.504+00:00",
       "valid": true,
       "volume_end_utc": "2026-09-23T04:00:00.000+00:00",
       "volume_method": "completed_15m_candles_equal_windows",
